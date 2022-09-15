@@ -4,7 +4,7 @@ def mag_rate_loss(V, omega_deg_day, telescope):
  and rate of motion.
  V is a float value of the V magnitude of object, omega is a float value of the rate of motion in radians/day
  as a float, telescope is a string value, either G96 or 703.
- Adapted from Eqn. 1 from Zavodny et al. 2008 using values
+ Adapted from Eqn. 1 from Zavodny et al. 2008.
  input is V, V mag, omega_deg_day, rate of motion in degrees per day and the telescope as a string 703 or G96.
  normalized to the average Main Belt rate of mb_rate ~0.2 degrees/day.
  Valid for G96 for objects with V<15 moving slower than ~9 degs/day.
